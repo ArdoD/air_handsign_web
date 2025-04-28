@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deteksi Gerakan Bisindo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function clearPreviousResult() {
+            const resultAlert = document.querySelector('.alert-success');
+            if (resultAlert) {
+                resultAlert.remove();
+            }
+            const videoPreview = document.getElementById('video-preview');
+            videoPreview.style.display = 'none';
+            videoPreview.src = '';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Bisikan</span>
+            <span class="navbar-text">| Welcome {{ session['user'] }}</span>
+            <div class="ms-auto d-flex align-items-center">
+                <span id="current-time" class="me-3"></span>
+                <a href="/logout" class="btn btn-danger">Sign Out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2 class="text-center">Deteksi Gerakan Bisindo</h2>
+        <form method="POST" action="/deteksi" enctype="multipart/form-data" class="mt-4" onsubmit="showLoading(); clearPreviousResult()">
+            <div class="mb-3">
+                <label for="file" class="form-label">Upload Video</label>
+                <input type="file" class="form-control" id="file" name="file" accept="video/*" required onchange="previewVideo(event); clearPreviousResult()">
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mt-3">Deteksi</button>
+        </form>
+        <div id="loading">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Processing your video, please wait...</p>
+        </div>
+        {% if prediction %}
+        <div class="alert alert-success mt-4" role="alert">
+            Deteksi berhasil: <strong>{{ prediction }}</strong>
+        </div>
+        {% endif %}
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <div class="mt-3">
+              {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                  {{ message }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+    </div>
+    <video id="video-preview" controls style="width: 100%; margin-top: 20px; display: block;" src="{{ url_for('static', filename='uploads/' + video_file) if video_file else '' }}"></video>
+    <script>
+        function previewVideo(event) {
+            const file = event.target.files[0];
+            const videoPreview = document.getElementById('video-preview');
+            if (file) {
+                const url = URL.createObjectURL(file);
+                videoPreview.src = url;
+                videoPreview.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

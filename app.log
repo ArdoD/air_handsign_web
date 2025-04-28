@@ -1,0 +1,238 @@
+2025-04-27 17:16:46,938 -  * Debugger is active!
+2025-04-27 17:16:46,951 -  * Debugger PIN: 795-651-002
+2025-04-27 17:17:13,351 - 127.0.0.1 - - [27/Apr/2025 17:17:13] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:17:13,488 - 127.0.0.1 - - [27/Apr/2025 17:17:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:17:20,162 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:18:06,162 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2025-04-27 17:18:06,163 - [33mPress CTRL+C to quit[0m
+2025-04-27 17:18:06,167 -  * Restarting with stat
+2025-04-27 17:18:25,043 -  * Debugger is active!
+2025-04-27 17:18:25,057 -  * Debugger PIN: 795-651-002
+2025-04-27 17:19:36,533 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:19:38,777 -  * Restarting with stat
+2025-04-27 17:20:21,794 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2025-04-27 17:20:21,795 - [33mPress CTRL+C to quit[0m
+2025-04-27 17:20:21,798 -  * Restarting with stat
+2025-04-27 17:20:39,999 -  * Debugger is active!
+2025-04-27 17:20:40,009 -  * Debugger PIN: 795-651-002
+2025-04-27 17:20:40,689 - 127.0.0.1 - - [27/Apr/2025 17:20:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-27 17:20:40,741 - 127.0.0.1 - - [27/Apr/2025 17:20:40] "GET /login HTTP/1.1" 200 -
+2025-04-27 17:21:02,327 - Failed login attempt for ikyganteng.
+2025-04-27 17:21:02,328 - 127.0.0.1 - - [27/Apr/2025 17:21:02] "POST /login HTTP/1.1" 200 -
+2025-04-27 17:21:10,307 - 127.0.0.1 - - [27/Apr/2025 17:21:10] "GET /signup HTTP/1.1" 200 -
+2025-04-27 17:21:24,178 - 127.0.0.1 - - [27/Apr/2025 17:21:24] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-27 17:21:24,189 - 127.0.0.1 - - [27/Apr/2025 17:21:24] "GET /login HTTP/1.1" 200 -
+2025-04-27 17:21:27,077 - 127.0.0.1 - - [27/Apr/2025 17:21:27] "GET /signup HTTP/1.1" 200 -
+2025-04-27 17:21:43,923 - New account created: ikyganteng@gmail.com.
+2025-04-27 17:21:43,925 - 127.0.0.1 - - [27/Apr/2025 17:21:43] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-27 17:21:43,935 - 127.0.0.1 - - [27/Apr/2025 17:21:43] "GET /login HTTP/1.1" 200 -
+2025-04-27 17:21:57,090 - User ikyganteng@gmail.com logged in successfully.
+2025-04-27 17:21:57,092 - 127.0.0.1 - - [27/Apr/2025 17:21:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-27 17:21:57,106 - 127.0.0.1 - - [27/Apr/2025 17:21:57] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:21:57,274 - 127.0.0.1 - - [27/Apr/2025 17:21:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:22:31,827 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:22:34,123 -  * Restarting with stat
+2025-04-27 17:22:53,166 -  * Debugger is active!
+2025-04-27 17:22:53,179 -  * Debugger PIN: 795-651-002
+2025-04-27 17:22:53,245 - 127.0.0.1 - - [27/Apr/2025 17:22:53] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:22:53,400 - 127.0.0.1 - - [27/Apr/2025 17:22:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:23:18,458 - 127.0.0.1 - - [27/Apr/2025 17:23:18] "POST /upload HTTP/1.1" 200 -
+2025-04-27 17:23:18,526 - 127.0.0.1 - - [27/Apr/2025 17:23:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:23:21,064 - 127.0.0.1 - - [27/Apr/2025 17:23:21] "[33mGET /static/uploads/Aku.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 17:27:30,359 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2025-04-27 17:27:30,359 - [33mPress CTRL+C to quit[0m
+2025-04-27 17:27:30,363 -  * Restarting with stat
+2025-04-27 17:27:49,562 -  * Debugger is active!
+2025-04-27 17:27:49,583 -  * Debugger PIN: 795-651-002
+2025-04-27 17:27:57,363 - 127.0.0.1 - - [27/Apr/2025 17:27:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-27 17:27:57,382 - 127.0.0.1 - - [27/Apr/2025 17:27:57] "GET /login HTTP/1.1" 200 -
+2025-04-27 17:27:59,839 - 127.0.0.1 - - [27/Apr/2025 17:27:59] "POST /upload HTTP/1.1" 200 -
+2025-04-27 17:28:13,589 - User ikyskuy logged in successfully.
+2025-04-27 17:28:13,590 - 127.0.0.1 - - [27/Apr/2025 17:28:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-27 17:28:13,631 - 127.0.0.1 - - [27/Apr/2025 17:28:13] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:31:10,933 - 127.0.0.1 - - [27/Apr/2025 17:31:10] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:34:58,488 - 127.0.0.1 - - [27/Apr/2025 17:34:58] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:35:37,309 - 127.0.0.1 - - [27/Apr/2025 17:35:37] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:35:41,154 - 127.0.0.1 - - [27/Apr/2025 17:35:41] "[33mGET /belajar HTTP/1.1[0m" 404 -
+2025-04-27 17:35:43,654 - 127.0.0.1 - - [27/Apr/2025 17:35:43] "[33mGET /deteksi HTTP/1.1[0m" 404 -
+2025-04-27 17:36:21,739 - 127.0.0.1 - - [27/Apr/2025 17:36:21] "[33mGET /deteksi HTTP/1.1[0m" 404 -
+2025-04-27 17:37:36,653 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:37:39,022 -  * Restarting with stat
+2025-04-27 17:37:59,980 -  * Debugger is active!
+2025-04-27 17:37:59,991 -  * Debugger PIN: 795-651-002
+2025-04-27 17:38:00,060 - 127.0.0.1 - - [27/Apr/2025 17:38:00] "GET /upload HTTP/1.1" 200 -
+2025-04-27 17:38:02,833 - 127.0.0.1 - - [27/Apr/2025 17:38:02] "[35m[1mGET /deteksi HTTP/1.1[0m" 500 -
+2025-04-27 17:38:03,115 - 127.0.0.1 - - [27/Apr/2025 17:38:03] "GET /deteksi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-27 17:38:03,121 - 127.0.0.1 - - [27/Apr/2025 17:38:03] "GET /deteksi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-27 17:38:03,198 - 127.0.0.1 - - [27/Apr/2025 17:38:03] "GET /deteksi?__debugger__=yes&cmd=resource&f=console.png&s=ihQpzyCwR2gbgdzgzdk4 HTTP/1.1" 200 -
+2025-04-27 17:38:03,221 - 127.0.0.1 - - [27/Apr/2025 17:38:03] "GET /deteksi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-27 17:40:55,685 - 127.0.0.1 - - [27/Apr/2025 17:40:55] "GET /deteksi HTTP/1.1" 200 -
+2025-04-27 17:41:16,998 - 127.0.0.1 - - [27/Apr/2025 17:41:16] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:43:22,613 - 127.0.0.1 - - [27/Apr/2025 17:43:22] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:43:22,727 - 127.0.0.1 - - [27/Apr/2025 17:43:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:43:55,868 - 127.0.0.1 - - [27/Apr/2025 17:43:55] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:43:55,923 - 127.0.0.1 - - [27/Apr/2025 17:43:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-27 17:44:15,788 - 127.0.0.1 - - [27/Apr/2025 17:44:15] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:45:09,514 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:45:11,653 -  * Restarting with stat
+2025-04-27 17:45:30,997 -  * Debugger is active!
+2025-04-27 17:45:31,009 -  * Debugger PIN: 795-651-002
+2025-04-27 17:46:00,401 - 127.0.0.1 - - [27/Apr/2025 17:46:00] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:48:51,619 - 127.0.0.1 - - [27/Apr/2025 17:48:51] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:49:18,862 - 127.0.0.1 - - [27/Apr/2025 17:49:18] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:51:11,138 - 127.0.0.1 - - [27/Apr/2025 17:51:11] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:52:13,973 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:52:16,369 -  * Restarting with stat
+2025-04-27 17:52:35,977 -  * Debugger is active!
+2025-04-27 17:52:35,998 -  * Debugger PIN: 795-651-002
+2025-04-27 17:52:46,579 - 127.0.0.1 - - [27/Apr/2025 17:52:46] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:53:07,564 - 127.0.0.1 - - [27/Apr/2025 17:53:07] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:53:28,374 - 127.0.0.1 - - [27/Apr/2025 17:53:28] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:53:47,245 - 127.0.0.1 - - [27/Apr/2025 17:53:47] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:54:02,983 - 127.0.0.1 - - [27/Apr/2025 17:54:02] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:56:26,166 - 127.0.0.1 - - [27/Apr/2025 17:56:26] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:56:26,232 - 127.0.0.1 - - [27/Apr/2025 17:56:26] "[33mGET /static/uploads/7.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 17:56:45,547 - 127.0.0.1 - - [27/Apr/2025 17:56:45] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:56:45,618 - 127.0.0.1 - - [27/Apr/2025 17:56:45] "[33mGET /static/uploads/Kenapa.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 17:58:17,084 - 127.0.0.1 - - [27/Apr/2025 17:58:17] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:58:35,900 - 127.0.0.1 - - [27/Apr/2025 17:58:35] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 17:59:56,603 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 17:59:58,838 -  * Restarting with stat
+2025-04-27 18:00:18,620 -  * Debugger is active!
+2025-04-27 18:00:18,632 -  * Debugger PIN: 795-651-002
+2025-04-27 18:00:30,589 - 127.0.0.1 - - [27/Apr/2025 18:00:30] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:00:50,845 - 127.0.0.1 - - [27/Apr/2025 18:00:50] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:02:00,262 - 127.0.0.1 - - [27/Apr/2025 18:02:00] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:02:00,327 - 127.0.0.1 - - [27/Apr/2025 18:02:00] "[33mGET /static/uploads/2.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:02:24,015 - 127.0.0.1 - - [27/Apr/2025 18:02:24] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:02:24,092 - 127.0.0.1 - - [27/Apr/2025 18:02:24] "[33mGET /static/uploads/Aku.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:03:57,306 - 127.0.0.1 - - [27/Apr/2025 18:03:57] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:03:57,376 - 127.0.0.1 - - [27/Apr/2025 18:03:57] "[33mGET /static/uploads/Benci.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:06:23,634 - 127.0.0.1 - - [27/Apr/2025 18:06:23] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:06:23,705 - 127.0.0.1 - - [27/Apr/2025 18:06:23] "[33mGET /static/uploads/Benci.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:06:43,645 - 127.0.0.1 - - [27/Apr/2025 18:06:43] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:06:44,424 - 127.0.0.1 - - [27/Apr/2025 18:06:44] "[33mGET /static/uploads/3.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:07:06,508 - 127.0.0.1 - - [27/Apr/2025 18:07:06] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:07:07,548 - 127.0.0.1 - - [27/Apr/2025 18:07:07] "[33mGET /static/uploads/3.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:07:34,002 - 127.0.0.1 - - [27/Apr/2025 18:07:34] "POST /deteksi HTTP/1.1" 200 -
+2025-04-27 18:07:34,069 - 127.0.0.1 - - [27/Apr/2025 18:07:34] "[33mGET /static/uploads/7.mp4 HTTP/1.1[0m" 404 -
+2025-04-27 18:07:54,865 - 127.0.0.1 - - [27/Apr/2025 18:07:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-27 18:07:54,884 - 127.0.0.1 - - [27/Apr/2025 18:07:54] "GET /login HTTP/1.1" 200 -
+2025-04-27 18:08:04,019 - 127.0.0.1 - - [27/Apr/2025 18:08:04] "GET /upload HTTP/1.1" 200 -
+2025-04-27 18:08:12,891 - 127.0.0.1 - - [27/Apr/2025 18:08:12] "[33mGET /belajar HTTP/1.1[0m" 404 -
+2025-04-27 18:08:40,048 - 127.0.0.1 - - [27/Apr/2025 18:08:40] "[33mGET /belajar HTTP/1.1[0m" 404 -
+2025-04-27 18:11:15,174 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 18:11:17,389 -  * Restarting with stat
+2025-04-27 18:11:36,819 -  * Debugger is active!
+2025-04-27 18:11:36,833 -  * Debugger PIN: 795-651-002
+2025-04-27 18:11:47,260 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\app.py', reloading
+2025-04-27 18:11:49,811 -  * Restarting with stat
+2025-04-27 18:12:09,205 -  * Debugger is active!
+2025-04-27 18:12:09,219 -  * Debugger PIN: 795-651-002
+2025-04-27 18:12:09,285 - 127.0.0.1 - - [27/Apr/2025 18:12:09] "GET /upload HTTP/1.1" 200 -
+2025-04-27 18:12:29,705 - 127.0.0.1 - - [27/Apr/2025 18:12:29] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:12:31,232 - 127.0.0.1 - - [27/Apr/2025 18:12:31] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:12:31,450 - 127.0.0.1 - - [27/Apr/2025 18:12:31] "GET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-27 18:12:31,455 - 127.0.0.1 - - [27/Apr/2025 18:12:31] "GET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-27 18:12:31,476 - 127.0.0.1 - - [27/Apr/2025 18:12:31] "GET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1" 200 -
+2025-04-27 18:12:31,503 - 127.0.0.1 - - [27/Apr/2025 18:12:31] "GET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-27 18:12:42,641 - 127.0.0.1 - - [27/Apr/2025 18:12:42] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:12:42,696 - 127.0.0.1 - - [27/Apr/2025 18:12:42] "GET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-27 18:12:42,699 - 127.0.0.1 - - [27/Apr/2025 18:12:42] "GET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-27 18:12:42,720 - 127.0.0.1 - - [27/Apr/2025 18:12:42] "GET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1" 200 -
+2025-04-27 18:12:42,744 - 127.0.0.1 - - [27/Apr/2025 18:12:42] "GET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-27 18:12:58,100 - 127.0.0.1 - - [27/Apr/2025 18:12:58] "[35m[1mGET /belajar/kata HTTP/1.1[0m" 500 -
+2025-04-27 18:12:58,162 - 127.0.0.1 - - [27/Apr/2025 18:12:58] "GET /belajar/kata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-27 18:12:58,164 - 127.0.0.1 - - [27/Apr/2025 18:12:58] "GET /belajar/kata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-27 18:12:58,186 - 127.0.0.1 - - [27/Apr/2025 18:12:58] "GET /belajar/kata?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1" 200 -
+2025-04-27 18:12:58,211 - 127.0.0.1 - - [27/Apr/2025 18:12:58] "GET /belajar/kata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-27 18:13:49,543 - 127.0.0.1 - - [27/Apr/2025 18:13:49] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:13:49,603 - 127.0.0.1 - - [27/Apr/2025 18:13:49] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:13:49,605 - 127.0.0.1 - - [27/Apr/2025 18:13:49] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:13:49,621 - 127.0.0.1 - - [27/Apr/2025 18:13:49] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:14:01,727 - 127.0.0.1 - - [27/Apr/2025 18:14:01] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:14:01,788 - 127.0.0.1 - - [27/Apr/2025 18:14:01] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:14:01,792 - 127.0.0.1 - - [27/Apr/2025 18:14:01] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:14:01,817 - 127.0.0.1 - - [27/Apr/2025 18:14:01] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:23,723 - 127.0.0.1 - - [27/Apr/2025 18:15:23] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:15:23,785 - 127.0.0.1 - - [27/Apr/2025 18:15:23] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:23,787 - 127.0.0.1 - - [27/Apr/2025 18:15:23] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:23,810 - 127.0.0.1 - - [27/Apr/2025 18:15:23] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:26,075 - 127.0.0.1 - - [27/Apr/2025 18:15:26] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:15:26,144 - 127.0.0.1 - - [27/Apr/2025 18:15:26] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:26,145 - 127.0.0.1 - - [27/Apr/2025 18:15:26] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:26,163 - 127.0.0.1 - - [27/Apr/2025 18:15:26] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:28,095 - 127.0.0.1 - - [27/Apr/2025 18:15:28] "[35m[1mGET /belajar/kata HTTP/1.1[0m" 500 -
+2025-04-27 18:15:28,149 - 127.0.0.1 - - [27/Apr/2025 18:15:28] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:28,157 - 127.0.0.1 - - [27/Apr/2025 18:15:28] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:28,180 - 127.0.0.1 - - [27/Apr/2025 18:15:28] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:30,433 - 127.0.0.1 - - [27/Apr/2025 18:15:30] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:15:30,488 - 127.0.0.1 - - [27/Apr/2025 18:15:30] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:30,490 - 127.0.0.1 - - [27/Apr/2025 18:15:30] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:30,507 - 127.0.0.1 - - [27/Apr/2025 18:15:30] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:38,633 - 127.0.0.1 - - [27/Apr/2025 18:15:38] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:15:38,707 - 127.0.0.1 - - [27/Apr/2025 18:15:38] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:38,709 - 127.0.0.1 - - [27/Apr/2025 18:15:38] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:38,723 - 127.0.0.1 - - [27/Apr/2025 18:15:38] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:40,831 - 127.0.0.1 - - [27/Apr/2025 18:15:40] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:15:40,889 - 127.0.0.1 - - [27/Apr/2025 18:15:40] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:40,891 - 127.0.0.1 - - [27/Apr/2025 18:15:40] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:40,910 - 127.0.0.1 - - [27/Apr/2025 18:15:40] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:42,871 - 127.0.0.1 - - [27/Apr/2025 18:15:42] "[35m[1mGET /belajar/kata HTTP/1.1[0m" 500 -
+2025-04-27 18:15:42,960 - 127.0.0.1 - - [27/Apr/2025 18:15:42] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:42,974 - 127.0.0.1 - - [27/Apr/2025 18:15:42] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:42,997 - 127.0.0.1 - - [27/Apr/2025 18:15:42] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:44,814 - 127.0.0.1 - - [27/Apr/2025 18:15:44] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:15:44,872 - 127.0.0.1 - - [27/Apr/2025 18:15:44] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:44,874 - 127.0.0.1 - - [27/Apr/2025 18:15:44] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:44,895 - 127.0.0.1 - - [27/Apr/2025 18:15:44] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:48,003 - 127.0.0.1 - - [27/Apr/2025 18:15:48] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:15:48,058 - 127.0.0.1 - - [27/Apr/2025 18:15:48] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:48,058 - 127.0.0.1 - - [27/Apr/2025 18:15:48] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:48,080 - 127.0.0.1 - - [27/Apr/2025 18:15:48] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:15:51,858 - 127.0.0.1 - - [27/Apr/2025 18:15:51] "[35m[1mGET /belajar/kata HTTP/1.1[0m" 500 -
+2025-04-27 18:15:51,923 - 127.0.0.1 - - [27/Apr/2025 18:15:51] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:15:51,923 - 127.0.0.1 - - [27/Apr/2025 18:15:51] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:15:51,945 - 127.0.0.1 - - [27/Apr/2025 18:15:51] "[36mGET /belajar/kata?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:16:03,129 - 127.0.0.1 - - [27/Apr/2025 18:16:03] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:16:03,206 - 127.0.0.1 - - [27/Apr/2025 18:16:03] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:16:03,207 - 127.0.0.1 - - [27/Apr/2025 18:16:03] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:16:03,230 - 127.0.0.1 - - [27/Apr/2025 18:16:03] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:20:45,623 - 127.0.0.1 - - [27/Apr/2025 18:20:45] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:20:46,508 - 127.0.0.1 - - [27/Apr/2025 18:20:46] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:20:47,731 - 127.0.0.1 - - [27/Apr/2025 18:20:47] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:20:47,746 - 127.0.0.1 - - [27/Apr/2025 18:20:47] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:20:47,804 - 127.0.0.1 - - [27/Apr/2025 18:20:47] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:20:47,806 - 127.0.0.1 - - [27/Apr/2025 18:20:47] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:20:47,835 - 127.0.0.1 - - [27/Apr/2025 18:20:47] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:20:50,829 - 127.0.0.1 - - [27/Apr/2025 18:20:50] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:20:50,844 - 127.0.0.1 - - [27/Apr/2025 18:20:50] "[35m[1mGET /belajar/huruf HTTP/1.1[0m" 500 -
+2025-04-27 18:20:50,905 - 127.0.0.1 - - [27/Apr/2025 18:20:50] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:20:50,908 - 127.0.0.1 - - [27/Apr/2025 18:20:50] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:20:50,931 - 127.0.0.1 - - [27/Apr/2025 18:20:50] "[36mGET /belajar/huruf?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:21:55,591 - 127.0.0.1 - - [27/Apr/2025 18:21:55] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:21:55,613 - 127.0.0.1 - - [27/Apr/2025 18:21:55] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:21:55,679 - 127.0.0.1 - - [27/Apr/2025 18:21:55] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:21:55,681 - 127.0.0.1 - - [27/Apr/2025 18:21:55] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:21:55,703 - 127.0.0.1 - - [27/Apr/2025 18:21:55] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-27 18:21:59,586 - 127.0.0.1 - - [27/Apr/2025 18:21:59] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:22:00,638 - 127.0.0.1 - - [27/Apr/2025 18:22:00] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:22:01,018 - 127.0.0.1 - - [27/Apr/2025 18:22:01] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:22:01,171 - 127.0.0.1 - - [27/Apr/2025 18:22:01] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:22:01,291 - 127.0.0.1 - - [27/Apr/2025 18:22:01] "GET /belajar HTTP/1.1" 200 -
+2025-04-27 18:22:07,964 - 127.0.0.1 - - [27/Apr/2025 18:22:07] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:22:07,981 - 127.0.0.1 - - [27/Apr/2025 18:22:07] "[35m[1mGET /belajar/angka HTTP/1.1[0m" 500 -
+2025-04-27 18:22:08,036 - 127.0.0.1 - - [27/Apr/2025 18:22:08] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-27 18:22:08,042 - 127.0.0.1 - - [27/Apr/2025 18:22:08] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-27 18:22:08,063 - 127.0.0.1 - - [27/Apr/2025 18:22:08] "[36mGET /belajar/angka?__debugger__=yes&cmd=resource&f=console.png&s=SyyB1fwvNcxfoRwsTzlq HTTP/1.1[0m" 304 -
+2025-04-28 05:08:43,401 - 127.0.0.1 - - [28/Apr/2025 05:08:43] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-04-28 05:09:35,191 -  * Detected change in 'C:\\Users\\bcamaster\\Documents\\Ardo\\AIR-Handsign\\Web\\fsl_video_detection\\templates\\import os.py', reloading
