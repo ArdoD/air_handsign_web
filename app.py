@@ -294,23 +294,23 @@ def belajar():
 def belajar_kategori(kategori):
     # Tentukan folder berdasarkan kategori
     kategori_map = {
-        'angka': 'test_case/angka',
-        'huruf': 'test_case/huruf',
-        'kata': 'test_case/kata'
+        'angka': [str(i) + '.gif' for i in range(1, 11)],
+        'huruf': [chr(i) + '.gif' for i in range(65, 91)],  # A-Z
+        'kata': ['Aku.gif', 'Cinta.gif', 'Kenapa.gif', 'Tidak.gif', 'Kecewa.gif']
     }
 
     if kategori not in kategori_map:
-        flash('Kategori tidak ditemukan.', 'danger')
-        return redirect(url_for('belajar'))
+        return {'error': 'Kategori tidak ditemukan.'}, 404
 
-    folder_path = kategori_map[kategori]
-    video_files = []
+    folder_path = 'test_case'
+    gif_files = []
 
-    # Ambil semua file video di folder kategori
+    # Ambil file gif yang sesuai dengan pola kategori
     if os.path.exists(folder_path):
-        video_files = [f for f in os.listdir(folder_path) if f.endswith(('.mp4', '.avi', '.mov'))]
+        all_files = os.listdir(folder_path)
+        gif_files = [f for f in all_files if f in kategori_map[kategori]]
 
-    return render_template('belajar_kategori.html', kategori=kategori, video_files=video_files)
+    return {'video_files': gif_files}
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)

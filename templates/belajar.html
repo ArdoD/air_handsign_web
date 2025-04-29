@@ -24,7 +24,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Angka</h5>
                         <p class="card-text">Pelajari katalog video untuk angka dalam Bisindo.</p>
-                        <a href="/belajar/angka" class="btn btn-primary" onclick="loadKatalog('angka')">Lihat Katalog</a>
+                        <a class="btn btn-primary" onclick="loadKatalog('angka')">Lihat Katalog</a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Huruf</h5>
                         <p class="card-text">Pelajari katalog video untuk huruf dalam Bisindo.</p>
-                        <a href="/belajar/huruf" class="btn btn-primary" onclick="loadKatalog('huruf')">Lihat Katalog</a>
+                        <a class="btn btn-primary" onclick="loadKatalog('huruf')">Lihat Katalog</a>
                     </div>
                 </div>
             </div>
@@ -42,58 +42,69 @@
                     <div class="card-body">
                         <h5 class="card-title">Kata</h5>
                         <p class="card-text">Pelajari katalog video untuk kata dalam Bisindo.</p>
-                        <a href="/belajar/kata" class="btn btn-primary" onclick="loadKatalog('kata')">Lihat Katalog</a>
+                        <a class="btn btn-primary" onclick="loadKatalog('kata')">Lihat Katalog</a>
                     </div>
                 </div>
             </div>
         </div>
         <div id="katalog-container" class="mt-5" style="display: none;">
             <h3 class="text-center">Katalog Video: <span id="kategori-title"></span></h3>
-            <div id="video-list" class="row mt-4"></div>
+            <div id="video-list" class="row row-cols-1 row-cols-md-4 g-4 mt-4"></div>
         </div>
-    </div>
-    <script>
-        function loadKatalog(kategori) {
-            fetch(`/belajar/${kategori}`)
-                .then(response => response.json())
-                .then(data => {
-                    const katalogContainer = document.getElementById('katalog-container');
-                    const videoList = document.getElementById('video-list');
-                    const kategoriTitle = document.getElementById('kategori-title');
 
-                    kategoriTitle.textContent = kategori.charAt(0).toUpperCase() + kategori.slice(1);
-                    videoList.innerHTML = '';
+        <script>
+            function loadKatalog(kategori) {
+                const kategoriMap = {
+                    angka: 'test_case/angka',
+                    huruf: 'test_case/huruf',
+                    kata: 'test_case/kata'
+                };
 
-                    data.video_files.forEach(video => {
-                        const col = document.createElement('div');
-                        col.className = 'col-md-4';
+                if (!kategoriMap[kategori]) {
+                    alert('Kategori tidak ditemukan.');
+                    return;
+                }
 
-                        const card = document.createElement('div');
-                        card.className = 'card';
+                fetch(`/belajar/${kategori}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        const katalogContainer = document.getElementById('katalog-container');
+                        const videoList = document.getElementById('video-list');
+                        const kategoriTitle = document.getElementById('kategori-title');
 
-                        const videoElement = document.createElement('video');
-                        videoElement.src = `/static/${video}`;
-                        videoElement.controls = true;
-                        videoElement.className = 'card-img-top';
+                        kategoriTitle.textContent = kategori.charAt(0).toUpperCase() + kategori.slice(1);
+                        videoList.innerHTML = '';
 
-                        const cardBody = document.createElement('div');
-                        cardBody.className = 'card-body';
+                        data.video_files.forEach(video => {
+                            const col = document.createElement('div');
+                            col.className = 'col';
 
-                        const cardTitle = document.createElement('h5');
-                        cardTitle.className = 'card-title';
-                        cardTitle.textContent = video;
+                            const card = document.createElement('div');
+                            card.className = 'card';
 
-                        cardBody.appendChild(cardTitle);
-                        card.appendChild(videoElement);
-                        card.appendChild(cardBody);
-                        col.appendChild(card);
-                        videoList.appendChild(col);
-                    });
+                            const gifElement = document.createElement('img');
+                            gifElement.src = `/test_case/${video}`;
+                            gifElement.alt = video;
+                            gifElement.className = 'card-img-top';
 
-                    katalogContainer.style.display = 'block';
-                })
-                .catch(error => console.error('Error loading katalog:', error));
-        }
-    </script>
+                            const cardBody = document.createElement('div');
+                            cardBody.className = 'card-body';
+
+                            const cardTitle = document.createElement('h5');
+                            cardTitle.className = 'card-title';
+                            cardTitle.textContent = video.replace('.mp4', '');
+
+                            cardBody.appendChild(cardTitle);
+                            card.appendChild(gifElement);
+                            card.appendChild(cardBody);
+                            col.appendChild(card);
+                            videoList.appendChild(col);
+                        });
+
+                        katalogContainer.style.display = 'block';
+                    })
+                    .catch(error => console.error('Error loading katalog:', error));
+            }
+        </script>
 </body>
 </html>
